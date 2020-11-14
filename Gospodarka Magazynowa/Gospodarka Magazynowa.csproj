@@ -160,13 +160,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ElementyMagazynu.cs" />
-    <Compile Include="Models\Klienci.cs" />
-    <Compile Include="Models\lokalizacjeWMagazynie.cs" />
-    <Compile Include="Models\Magazyny.cs" />
-    <Compile Include="Models\Operacje.cs" />
-    <Compile Include="Models\Slowniki.cs" />
-    <Compile Include="Models\Uzytkownicy.cs" />
+    <Compile Include="Models\ElementMagazynu.cs" />
+    <Compile Include="Models\Klient.cs" />
+    <Compile Include="Models\LokalizacjaWMagazynie.cs" />
+    <Compile Include="Models\Magazyn.cs" />
+    <Compile Include="Models\Operacja.cs" />
+    <Compile Include="Models\Slownik.cs" />
+    <Compile Include="Models\Uzytkownik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
