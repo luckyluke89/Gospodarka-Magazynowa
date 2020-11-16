@@ -11,6 +11,6 @@ namespace Gospodarka_Magazynowa.Models
         public string NazwaSlownika { get; set; }
         public int ElementSlownika { get; set; }
         public string NazwaElementuSlownika { get; set; }
-        public bool CzyZastrzeczowny { get; set; }
+        public bool CzyZastrzezony { get; set; }
     }
 }

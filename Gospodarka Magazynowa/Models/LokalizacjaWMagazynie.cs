@@ -11,12 +11,14 @@ namespace Gospodarka_Magazynowa.Models
     {
         public int Id { get; set; }
         [ForeignKey("Magazyn")]
-        public int IdMagazynu { get; set; }
+        public int MagazynId { get; set; }
+        public Magazyn Magazyn { get; set; }
         public string Regal { get; set; }
         public string Miejsce { get; set; }
         public string Poziom { get; set; }
         [ForeignKey("Slownik")]
-        public int StatusLokalizacji { get; set; }
+        public int StatusLokalizacjiId { get; set; }
+        public Slownik StatusLokalizacji { get; set; }
         public string Etykieta { get; set; }
 
     }

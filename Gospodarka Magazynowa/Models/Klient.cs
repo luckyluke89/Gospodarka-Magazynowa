@@ -12,7 +12,8 @@ namespace Gospodarka_Magazynowa.Models
         public int Id { get; set; }
         public string Nazwa{ get; set; }
         [ForeignKey("Slownik")]
-        public int RodzajKlienta { get; set; }
+        public int RodzajKlientaId { get; set; }
+        public Slownik RodzajKlienta { get; set; }
 
     }
 }

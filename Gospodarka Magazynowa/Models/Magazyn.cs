@@ -16,6 +16,7 @@ namespace Gospodarka_Magazynowa.Models
         public long WolnaPrzestrzen { get; set; }
         public long ZajetaPrzestrzen { get; set; }
         [ForeignKey("Slownik")]
-        public int StatusMagazynu { get; set; }
+        public int StatusMagazynuId { get; set; }
+        public Slownik StatusMagazynu { get; set; }
     }
 }

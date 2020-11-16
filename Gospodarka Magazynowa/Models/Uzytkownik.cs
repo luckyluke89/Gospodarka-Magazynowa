@@ -15,6 +15,7 @@ namespace Gospodarka_Magazynowa.Models
         public string Nazwisko { get; set; }
         public string Haslo { get; set; }
         [ForeignKey("Slownik")]
-        public int PoziomUprawnien { get; set; }
+        public int PoziomUprawnienId { get; set; }
+        public Slownik PoziomUprawnien { get; set; }
     }
 }
